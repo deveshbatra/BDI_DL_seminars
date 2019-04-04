@@ -13,6 +13,8 @@ Dataset:
     http://scikit-learn.org/stable/modules/generated/sklearn.datasets.load_digits.html#sklearn.datasets.load_digits
 
 """
+import matplotlib
+matplotlib.use('PS')
 import matplotlib.pyplot as plt
 import numpy as np
 import seaborn as sn
